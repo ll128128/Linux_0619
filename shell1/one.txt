@@ -1,0 +1,11 @@
+total 40
+-rw-r--r--. 1 root root  346 Jun 18 09:43 bill.c
+-rw-r--r--. 1 root root  864 Jun 18 09:44 bill.o
+-rw-r--r--. 1 root root  344 Jun 18 09:44 fred.c
+-rw-r--r--. 1 root root  864 Jun 18 09:44 fred.o
+-rw-r--r--. 1 root root 1938 Jun 18 09:53 libfoo.a
+-rw-r--r--. 1 root root  320 Jun 18 09:49 lib.h
+-rw-r--r--. 1 root root    0 Jun 18 10:07 one.txt
+-rwxr-xr-x. 1 root root 4859 Jun 18 09:54 program
+-rw-r--r--. 1 root root  354 Jun 18 09:47 program.c
+-rw-r--r--. 1 root root  896 Jun 18 09:49 program.o

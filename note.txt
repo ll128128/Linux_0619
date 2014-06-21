@@ -1,0 +1,11 @@
+
+target:dependency_files 
+<TAB> command     //How to  use command become target 
+
+makelfile:eg
+
+main:main.c fun.c 
+gcc -o main main.c fun.c //compare 7 and 8 which is the newer one 
+
+main.c fun.c func.h
+

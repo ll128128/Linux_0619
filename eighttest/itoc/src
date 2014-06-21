@@ -1,0 +1,54 @@
+/*************************************************************************
+	> File Name: main.c
+	> Author: Chenfan
+	> Mail:994735640@qq.com 
+	> Created Time: Wed 18 Jun 2014 07:15:59 PM PDT
+ ************************************************************************/
+
+#include<stdio.h>
+#include<string.h>
+#define N 20
+int main(int argc ,char *argv[])
+{
+	int num, i, j, n;
+	char a[N];
+	i=0;
+	printf("Please input a number : ") ;
+	scanf("%d",&num) ;
+//	printf("%d",num);
+	if(num<0)
+	{
+		num=-num;
+		a[i]='-';
+		i++;
+		{
+			while(num/10!=0);
+			{
+				n=num%10;
+				a[i]=(char)(n+48);
+				i++;
+				num=num/10;
+			}
+			a[i]=(char)(num+48);
+			i++;
+		}
+
+	}
+	else
+	{
+		while(num/10!=0)
+		{
+			n=num%10;
+			a[i]=(char)(n+48);
+			i++;
+			num=num/10;
+		}
+		a[i]=(char)(num+48) ;
+		i++;
+	}
+	for(j=i-1;j>=0;j--)
+	{
+		printf("%c",a[j]) ;
+	}
+	return 0;
+}
